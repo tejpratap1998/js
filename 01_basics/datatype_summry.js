@@ -29,3 +29,33 @@ let myObj = {
  }
 
  console.log(typeof heros);
+
+
+
+
+ //++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ //  stack  (primittive), heap (non-primittive)
+
+
+ let myYotubename = "tejpratap"
+ let anothername = myYotubename
+ anothername = "codewithtp"
+
+ console.log(anothername);
+ console.log(myYotubename);
+
+ let userOne = {
+    mail: "tp@gmail.com",
+    upi: "tp@ybl"
+ }
+
+ let userTwo = userOne
+
+ userTwo.mail = "tp1@gmail.com",
+
+ console.log(userOne.mail);
+ console.log(userTwo.mail);
+ 
+ 
+ 
